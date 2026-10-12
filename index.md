@@ -1,7 +1,6 @@
 # Intelligent Agents – IA_PCOM7E e-Portfolio
 
-**Student Name:** [Your Name]  
-**Student Number:** [Your Student Number]  
+**Student Name:** Essa Alboinin  
 **Module:** Intelligent Agents (IA_PCOM7E)
 
 **Final Project Repository:**  
