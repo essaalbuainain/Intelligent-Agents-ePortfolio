@@ -35,7 +35,8 @@ The first collaborative discussion developed my understanding of autonomy, react
 
 *Figure 1. Initial contribution to the Agent-Based Systems discussion.*
 
-![Peer Response](assets/figure02_peer_response.png)
+![Peer Response 1](assets/figure02_peer_response1.png)
+![Peer Response 2](assets/figure02_peer_response2.png)
 
 *Figure 2. Evidence of peer engagement.*
 
@@ -123,6 +124,10 @@ Bob → Alice
   :content
     (hdmi-slots television-50-inch 3)
 )
+```
+
+---
+
 # 5. NLP and Parse Trees
 
 The constituency-based parsing activity developed my understanding of hierarchical language structure and syntactic ambiguity. The sentence *“The man saw the dog with the telescope”* was particularly useful because the phrase *“with the telescope”* can attach either to the verb phrase or the noun phrase, resulting in different interpretations.
