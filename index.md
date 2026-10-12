@@ -31,6 +31,7 @@ My final project, **ScholarPlan**, is an LLM-powered multi-agent system for acad
 
 The first collaborative discussion developed my understanding of autonomy, reactivity, pro-activeness and social ability in intelligent agents. Peer discussion also highlighted the importance of bounded autonomy, resilience and human oversight.
 
+
 ![Initial Post](assets/figure01_agent_initial.png)
 
 *Figure 1. Initial contribution to the Agent-Based Systems discussion.*
