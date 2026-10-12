@@ -1,7 +1,8 @@
 # Intelligent Agents – IA_PCOM7E e-Portfolio
 
-**Student Name:** Essa Abolinin  
-**Module:** Intelligent Agents (IA_PCOM7E)  
+**Student Name:** [Your Name]  
+**Student Number:** [Your Student Number]  
+**Module:** Intelligent Agents (IA_PCOM7E)
 
 **Final Project Repository:**  
 https://github.com/essaalbuainain/ScholarPlan
@@ -29,19 +30,21 @@ My final project, **ScholarPlan**, is an LLM-powered multi-agent system for acad
 
 # 1. Agent-Based Systems – Units 1–3
 
-The first collaborative discussion developed my understanding of autonomy, reactivity, pro-activeness and social ability in intelligent agents. Peer discussion also highlighted the importance of bounded autonomy, resilience and human oversight.
+The first collaborative discussion developed my understanding of why agent-based computing is useful in dynamic and distributed environments. Intelligent agents can demonstrate autonomy, reactivity, pro-activeness and social ability, allowing them to respond to environmental changes rather than following only fixed workflows.
 
+Peer discussion also made me question whether greater autonomy is always desirable. The discussions highlighted the importance of bounded autonomy, resilience and human oversight. This directly influenced ScholarPlan, where responsibilities were divided across specialist components rather than relying on one LLM for the entire process.
 
-![Initial Post](assets/figure01_agent_initial.png)
+![Initial Post](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure01_agent_initial.png)
 
-*Figure 1. Initial contribution to the Agent-Based Systems discussion.*
+*Figure 1. My initial contribution to the Agent-Based Systems discussion.*
 
-![Peer Response 1](assets/figure02_peer_response1.png)
-![Peer Response 2](assets/figure02_peer_response2.png)
+![Peer Response 1](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure02_peer_response1.png)
 
-*Figure 2. Evidence of peer engagement.*
+![Peer Response 2](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure02_peer_response2.png)
 
-![Summary](assets/figure03_agent_summary.png)
+*Figure 2. Evidence of engagement with peers on autonomy, resilience and human oversight.*
+
+![Summary](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure03_agent_summary.png)
 
 *Figure 3. Summary reflection for Units 1–3.*
 
@@ -49,37 +52,37 @@ The first collaborative discussion developed my understanding of autonomy, react
 
 # 2. Teamwork and Individual Contribution
 
-The team project required discussion of architectural decisions, allocation of responsibilities and collaborative development. This experience improved my ability to justify technical choices and respond constructively to feedback.
+The team project required discussion of architectural decisions, allocation of responsibilities and collaborative development. This experience improved my ability to justify technical choices, respond constructively to feedback and participate in a virtual development team.
 
-![Team Contribution](assets/figure04_team_contribution.png)
+![Team Feedback](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure05_team_feedback.png)
 
-*Figure 4. Evidence of my contribution to team planning and project coordination.*
-
-![Team Feedback](assets/figure05_team_feedback.png)
-
-*Figure 5. Evidence of team feedback and collaborative decision-making.*
+*Figure 4. Evidence of team feedback and collaborative decision-making.*
 
 ---
 
 # 3. Hybrid Agent Architectures
 
-ScholarPlan was implemented as a modular multi-agent system consisting of a Planner, Retriever, Processor, Critic and Archivist coordinated through a shared SQLite blackboard.
+Unit 4 demonstrated that agent architecture should be selected according to application requirements. ScholarPlan developed into a modular multi-agent system consisting of a **Planner, Retriever, Processor, Critic and Archivist**, coordinated through a shared SQLite blackboard.
 
-![ScholarPlan Architecture](assets/figure06_architecture.png)
+The Planner decomposes the research goal, the Retriever obtains scholarly information, the Processor generates candidate claims, the Critic independently evaluates those claims and the Archivist produces the final outputs.
 
-*Figure 6. ScholarPlan modular multi-agent architecture.*
+![ScholarPlan Architecture](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure06_architecture.png)
+
+*Figure 5. ScholarPlan modular multi-agent architecture.*
 
 ---
 
 # 4. Agent Communication – KQML and KIF
 
-The module introduced agent communication languages such as KQML and their differences from direct method invocation in Python or Java.
+The second collaborative discussion compared KQML with conventional Python or Java method invocation. KQML represents communication using performatives such as `ask`, `tell`, `request` and `reply`, allowing the purpose of a message to be made explicit.
 
-![KQML Discussion](assets/figure07_kqml_discussion.png)
+This concept influenced ScholarPlan, where I used KQML-inspired messages including `request`, `inform`, `confirm` and `reject`.
 
-*Figure 7. Discussion comparing KQML and conventional method invocation.*
+![KQML Discussion](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure07_kqml_discussion.png)
 
-### Practical KQML/KIF Activity
+*Figure 6. Discussion comparing KQML and conventional method invocation.*
+
+## Practical KQML/KIF Activity
 
 ```text
 Alice → Bob
@@ -125,73 +128,76 @@ Bob → Alice
   :content
     (hdmi-slots television-50-inch 3)
 )
-```
 
+
+```
 ---
 
 # 5. NLP and Parse Trees
 
-The constituency-based parsing activity developed my understanding of hierarchical language structure and syntactic ambiguity. The sentence *“The man saw the dog with the telescope”* was particularly useful because the phrase *“with the telescope”* can attach either to the verb phrase or the noun phrase, resulting in different interpretations.
+The constituency-based parsing activity developed my understanding of hierarchical language structure and syntactic ambiguity.
 
-This demonstrated that natural-language systems cannot always determine meaning from surface structure alone and may require contextual reasoning to resolve ambiguity.
+The sentence *“The man saw the dog with the telescope”* was particularly useful because the phrase *“with the telescope”* can attach either to the verb phrase or the noun phrase, resulting in different interpretations.
 
-![Parse Trees](assets/figure08_parse_trees.png)
+This demonstrated that natural-language systems cannot always determine meaning from surface structure alone and may require contextual reasoning.
 
-*Figure 8. Constituency-based parse tree activity.*
+![Parse Trees](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure08_parse_trees.png)
 
-![Parse Ambiguity](assets/figure09_parse_ambiguity.png)
+*Figure 7. Constituency-based parse tree activity.*
 
-*Figure 9. Alternative parse structures demonstrating syntactic ambiguity.*
+![Parse Ambiguity](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure09_parse_ambiguity.png)
+
+*Figure 8. Alternative parse structures demonstrating syntactic ambiguity.*
 
 ---
 
 # 6. Deep Learning and Responsible AI
 
-The later units expanded my focus from technical capability to the wider implications of intelligent technologies. The Deep Learning discussion considered hallucination, bias, privacy and accountability. Ji et al. (2023) identify hallucination as an important challenge in natural-language generation, while Bender et al. (2021) highlight wider concerns relating to bias in large language models.
+The later units expanded my focus from technical capability to the wider implications of intelligent technologies. The Deep Learning discussion considered hallucination, bias, privacy and accountability.
 
 The Deep Learning in Action activity further demonstrated that high predictive performance does not automatically mean responsible deployment. Intelligent systems also require representative data, transparency, appropriate validation and human oversight.
 
 This affected how I evaluated ScholarPlan because academic-looking LLM output cannot be assumed to be reliable simply because it is fluent.
 
-![Deep Learning Discussion](assets/figure10_deep_learning_discussion.png)
+![Deep Learning Discussion](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure10_deep_learning_discussion.png)
 
-*Figure 10. My discussion of ethical issues associated with generative AI.*
+*Figure 9. My discussion of ethical issues associated with generative AI.*
 
-![Deep Learning Activity](assets/figure11_deep_learning_action.png)
+![Deep Learning Activity](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure11_deep_learning_action.png)
 
-*Figure 11. Deep Learning in Action activity examining technical and socio-ethical implications.*
+*Figure 10. Deep Learning in Action activity examining technical and socio-ethical implications.*
 
 ---
 
 # 7. ScholarPlan – From Design to Implementation
 
-The Week 11 implementation allowed me to critically compare the working system with the earlier design. Core features such as modular agents, the shared blackboard and an independent Critic were retained.
+The Week 11 implementation allowed me to critically compare the working system with the earlier design. Core features such as modular agents, the shared blackboard and independent Critic were retained.
 
 Tutor feedback identified three important areas for improvement: the absence of a static UML Class Diagram, broad evaluation criteria and the need for a clear fallback rule when replanning repeatedly fails.
 
-![Tutor Feedback](assets/figure12_tutor_feedback.png)
+![Tutor Feedback](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure12_tutor_feedback.png)
 
-*Figure 12. Tutor feedback that informed the final ScholarPlan implementation.*
+*Figure 11. Tutor feedback that informed the final ScholarPlan implementation.*
 
 I addressed these issues by adding the UML diagram, introducing measurable evaluation targets and limiting replanning to three attempts before a task is marked `unresolvable`.
 
 The implementation also changed technically. Azure was considered during the design phase, but the final working demonstration used **Qwen2.5-3B-Instruct through LM Studio**. Live scholarly retrieval used **OpenAlex, Crossref and arXiv**.
 
-Testing revealed problems that had not been obvious during design, including malformed structured responses and unreliable model outputs. JSON repair and source-grounded fallback behaviour were therefore added. A relevance gate was also implemented so that evidence-supported but off-topic claims did not automatically enter the final report.
+Testing revealed problems that had not been obvious during design. These included malformed structured responses and unreliable model outputs. JSON repair and source-grounded fallback behaviour were therefore added. A relevance gate was also implemented so that evidence-supported but off-topic claims did not automatically enter the final report.
 
 The completed live run processed three tasks, retrieved 15 records and produced 12 evidence-verified claims. The automated test suite reported **7/7 passing tests**, including the three-attempt replanning rule.
 
-![Live Run](assets/figure13_live_run.png)
+![Live Run](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure13_live_run.png)
 
-*Figure 13. Successful ScholarPlan live execution showing 3 tasks, 15 retrieved records and 12 verified claims.*
+*Figure 12. Successful ScholarPlan live execution showing 3 tasks, 15 retrieved records and 12 verified claims.*
 
-![Tests Passed](assets/figure14_tests_passed.png)
+![Tests Passed](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure14_tests_passed.png)
 
-*Figure 14. Automated testing showing that all seven ScholarPlan tests passed successfully.*
+*Figure 13. Automated testing showing that all seven ScholarPlan tests passed successfully.*
 
-![Execution Trace](assets/figure15_execution_trace.png)
+![Execution Trace](https://raw.githubusercontent.com/essaalbuainain/Intelligent-Agents-ePortfolio/main/assets/figure15_execution_trace.png)
 
-*Figure 15. ScholarPlan execution trace showing auditable communication between the Planner, Retriever, Processor and Critic.*
+*Figure 14. ScholarPlan execution trace showing auditable communication between the Planner, Retriever, Processor and Critic.*
 
 ---
 
@@ -245,7 +251,7 @@ I would strengthen semantic retrieval, evaluate the system on larger labelled da
 
 ---
 
-# 9. Final Reflection
+# 9. Final Reflective Commentary
 
 This reflection follows the **WHAT, SO WHAT and NOW WHAT** framework of Rolfe, Freshwater and Jasper (2001).
 
@@ -275,7 +281,7 @@ Teamwork also influenced my learning. Discussing architectural choices required 
 
 If I developed ScholarPlan again, I would change the sequence of development. I would define measurable evaluation criteria first, develop deterministic tests earlier and specify structured-output schemas before integrating the LLM. I would also design failure states, retry limits and escalation mechanisms from the beginning.
 
-The relevance component could also be strengthened. The current implementation uses a transparent lexical baseline, while future development could use Sentence-BERT embeddings for semantic similarity (Reimers and Gurevych, 2019). I would evaluate this using a larger labelled dataset rather than relying mainly on demonstration queries.
+The relevance component could also be strengthened. The current implementation uses a transparent lexical baseline, while future development could use Sentence-BERT embeddings for semantic similarity. I would evaluate this using a larger labelled dataset rather than relying mainly on demonstration queries.
 
 For applications with greater consequences, I would introduce explicit human approval points and clearer uncertainty reporting. The most significant lesson I take from the module is that an intelligent system should not be judged only by how capable the underlying model appears. It should also be evaluated according to how its decisions are verified, explained, bounded, tested and monitored.
 
