@@ -2,7 +2,8 @@
 
 ## Intelligent Agents – IA_PCOM7E
 
-**Student Name:** Essa Abolinin 
+**Student Name:** Essa Alboinin 
+
 **Module:** Intelligent Agents (IA_PCOM7E)  
 **Assessment:** Individual Module e-Portfolio  
 **E-Portfolio URL:**  
