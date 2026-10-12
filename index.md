@@ -39,6 +39,7 @@ The first collaborative discussion developed my understanding of why agent-based
 Peer discussion also made me question whether greater autonomy is always desirable. The discussions highlighted the importance of bounded autonomy, resilience and human oversight. This directly influenced ScholarPlan, where responsibilities were divided across specialist components rather than relying on one LLM for the entire process.
 
 <img src="./assets/figure01_agent_initial.png" alt="Agent-Based Systems Initial Post" width="900">
+
 *Figure 1. My initial contribution to the Agent-Based Systems discussion.*
 
 ![Peer Response 1](https://github.com/essaalbuainain/Intelligent-Agents-ePortfolio/blob/main/assets/figure02_peer_response1.png?raw=true)
