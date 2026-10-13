@@ -52,7 +52,7 @@ The team design stage required us to coordinate responsibilities and discuss alt
 
 Working collaboratively demonstrated that software architecture benefits from multiple viewpoints. Decisions that initially appeared straightforward had to be explained and justified to other team members. This encouraged me to document assumptions more clearly and consider whether individual design choices could be tested later. The experience also strengthened my ability to contribute to a virtual development team and respond constructively to feedback.
 
-![Figure 4](assets/figure04_team_contribution.png)
+![Figure 4](assets/figure04_team_contribution.jpg)
 
 *Figure 4. Evidence of my contribution to team planning and project coordination.*
 
